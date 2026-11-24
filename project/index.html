@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Project - Survey Form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" id="top">
+        <h1>CSS PROJECT</h1>
+        <form>
+            <div class="information">
+                <p>
+                    <strong>Name:</strong>
+                    <input type="text" name="Name:" size="15" maxlength="30" placeholder="" />
+                    <strong>Major:</strong>
+                    <input type="text" name="Major:" size="15" maxlength="30" placeholder="" />
+                    <input class="top-button" type="submit" value="Submit your Information">
+                </p>
+            </div>
+            <section class="surv">
+                <h2 class="survey">Survey</h2>
+                <h2 class="form">Form</h2>
+                <p class="credits">Please fill this form as best you can!Following all the CSS rules. GBU as always.</p>
+            </section>
+            <fieldset class="details">
+                <legend class="detail">Your Details:</legend>
+                <p>
+                    <strong>Email:</strong>
+                    <input type="email" id="email" name="Email:" size="15" maxlength="40" />
+                </p>
+                <p>
+                    <strong>Gender:</strong>
+                    <input id="female" type="radio" name="Gender:" value="f" />
+                    <label for="female">Female</label>
+                    <input id="male" type="radio" name="Gender:" value="m" />
+                    <label for="male">Male</label>
+                </p>
+                <p>
+                    <strong>Grade:</strong>
+                    <select id="grade" name="grade">
+                        <option value="Freshman">Freshman</option>
+                        <option value="Sophomore">Sophomore</option>
+                        <option value="Junior">Junior</option>
+                        <option value="Senior">Senior</option>
+                    </select>
+                </p>
+            </fieldset>
+            <fieldset class="question">
+                <legend>Question</legend>
+                <p>
+                    <strong>How is your semester doing?</strong>
+                    <select id="semester" name="semester">
+                        <option value="Best">Best</option>
+                        <option value="Excellent">Excellent</option>
+                        <option value="Avarage">Good</option>
+                        <option value="Average">Average</option>
+                        <option value="Poor">Poor</option>
+                        <option value="Terrible">Terrible</option>
+                    </select>
+                </p>
+                <p>
+                    <label class="black-text">
+                        <input type="checkbox" name="subjects" value="Web" />Web
+                    </label>
+                    <label class="black-text">
+                        <input type="checkbox" name="subjects" value="Python">Python
+                    </label>
+                    <label class="black-text">
+                        <input type="checkbox" name="subjects" value="English">English
+                    </label>
+                    <label class="black-text">
+                        <input type="checkbox" name="subjects" value="Math">Math
+                    </label>
+                </p>
+                <p>
+                    <strong>What do you like the most?</strong>
+                    <br>
+                    <input type="radio" name="week" value="Monday">
+                    <label class="black-day">Monday</label>
+                    <input type="radio" name="week" value="Tuesday">
+                    <label class="red-day">Tuesday</label>
+                    <input type="radio" name="week" value="Wednesday">
+                    <label class="red-day">Wednesday</label>
+                    <input type="radio" name="week" value="Thursday">
+                    <label class="black-day">Thursday</label>
+                    <input type="radio" name="week" value="Friday">
+                    <label class="black-day">Friday</label>
+                </p>
+                <p>
+                    <strong>Comments</strong>
+                    <br>
+                    <textarea name="Comments" cols="20" rows="5"></textarea>
+                </p>
+            </fieldset>
+            <div class="footer">
+                <p id="bottom"><a href="#top">Go to the Top</a></p>
+            </div>
+            <p>
+                <input class="submit-button" type="submit" value="Submit Review">
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>

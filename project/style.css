@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Sixtyfour_Convergence';
+    src: url('fonts/Sixtyfour_Convergence/SixtyfourConvergence-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Qwigley';
+    src: url('fonts/Qwigley/Qwigley-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'PlayFair_Display';
+    src: url('fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: rgb(251, 251, 253);
+    font-family: Georgia, serif;
+    color: #17365d;
+}
+
+.container {
+    width: 580px;
+    margin: 20px auto;
+    padding: 3px;
+    background: color #e8f2f8;
+    border: 2px solid #ff5555;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Sixtyfour_Convergence', sans-serif;
+    font-size: 35px;
+    color: #e94b68;
+    background-color: #a2dbff;
+    text-decoration: underline;
+    text-decoration-color: #0004ff;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+
+}
+
+.information {
+    background-color: rgb(255, 242, 189);
+    padding: 5px 10px;
+    font-size: 12px;
+    color: rgb(117, 18, 1);
+}
+
+.information input[type="text"] {
+    width: 95px;
+    padding: 5px;
+    border: 1px solid rgb(136, 125, 125);
+    border-radius: 5px;
+
+}
+
+.top-button {
+    background-color: #2196e8;
+    color: white;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 7px;
+    box-shadow: 2px 3px 4px rgb(153, 153, 153);
+    font-size: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h2.survey::first-letter {
+    font-size: 200%;
+}
+
+h2.form::first-letter {
+    font-size: 200%;
+}
+
+h2.survey,
+h2.form {
+    display: inline-block;
+    letter-spacing: 1em;
+    text-decoration: underline;
+    margin: 10px 0 5px 0;
+    padding: 2px 0;
+    color: #0d0e60;
+}
+
+section.surv {
+    background-color: #dceafa;
+    text-align: center;
+    border: 2px 0;
+    margin: 5px;
+
+}
+
+p.credits {
+    font-family: 'Qwigley';
+    font-size: 10px;
+    padding: 2px 2px 2px 2px;
+    margin: 2px;
+    font-size: 20px;
+    color: #040544;
+}
+
+fieldset {
+    margin: 15px 5px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+
+.details {
+    background-color: #e1f8df;
+    border: 2px solid #299b40;
+    box-shadow: 2px 3px 5px #999999;
+}
+
+.details legend {
+    background-color: #299b20;
+}
+
+
+.question {
+    background-color: #ffedd8;
+    border: 2px solid rgb(254, 154, 23);
+    border-radius: 6px;
+    padding: 7px 6px;
+    margin: 3px 2px 5px;
+    box-shadow: 2px 3px 5px#999999;
+}
+
+.question legend {
+    background-color: rgb(251, 147, 21);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 2px 8px;
+}
+
+.question p {
+    margin: 5px 0;
+    line-height: 1.4;
+
+}
+
+.black-text {
+    color: black;
+}
+
+input,
+select,
+textarea {
+    font-family: Georgia, serif;
+    font-size: 8px;
+}
+
+input[type="email"] {
+    width: 95px;
+    padding: 5px;
+    border: 1px solid rgb(136, 125, 125);
+    border-radius: 5px;
+
+}
+
+select {
+    font-family: Georgia, serif;
+    font-size: 12px;
+    padding: 3px 5px;
+    border: 1px solid rgb(136, 125, 125);
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #2196e6;
+    vertical-align: middle;
+}
+
+textarea {
+    width: 300px;
+    height: 60px;
+    resize: vertical;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.black-day {
+    color: black;
+}
+
+.red-day {
+    color: red;
+
+}
+
+.footer {
+    background-color: #dceafa;
+    padding: 5px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.submit-button {
+    margin-top: 5px;
+    background-color: rgb(4, 152, 4);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-size: 12px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    box-shadow: 2px 3px 5px #999999;
+    cursor: pointer;
+
+}
